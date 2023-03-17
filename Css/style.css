@@ -15,7 +15,11 @@
         background-color:rgb(0, 0, 0);
     }
 
-    .lista {
+    .itens{
+        background-color: aquamarine;
+    }
+
+    .frase {
         font-family: 'Lucida Sans';
         font-size: small;
         text-align: left;
