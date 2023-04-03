@@ -10,7 +10,7 @@
 
     header{
         position:relative;
-        margin-bottom: auto;
+        margin-bottom: 0px;
         background-image: linear-gradient(to bottom, #050c16, #222f3b, #3b5463, #547c8d, #6ea7b7);
         width: 100%;
         height: 200px;
