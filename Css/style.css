@@ -11,7 +11,7 @@
     header{
         background-image: linear-gradient(to bottom, #050c16, #222f3b, #3b5463, #547c8d, #6ea7b7);
         position: relative;
-        margin-top: 0px;
+        margin-bottom: 0px;
         width: 100%;
         height: 200px;
     }
@@ -23,13 +23,15 @@
     .img3{
         width: 300px;
         height: 300px;
-        border-radius: 5px;
+        border: #000000;
+        border-radius: 10px;
     }
 
     .linha {
+        padding-top: 50%;
         text-align: center;
         width: 100%;
-        height: 220px;
+        height: 200px;
         font-family: 'Lucida Sans';
         font-size: small;
         font-size: 12px;
@@ -38,7 +40,7 @@
 
     .itens{
         border:#222f3b;
-        margin: 15px 0px;
+        margin-bottom: 15px;
         background-image: linear-gradient(to bottom, #616d7e, #6d8194, #7a97a9, #86adbe, #93c3d1);
     }
 
@@ -48,6 +50,7 @@
     }
 
     .frase {
+        text-align: center;
         font-family: 'Lucida Sans';
         font-size: small;
         text-align: left;
