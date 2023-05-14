@@ -32,6 +32,7 @@ header{
     top: 150px;
     left: 1000px;
     font-family: 'Advent Pro', sans-serif;
+    transition: 500ms;
 }
 
 .turma:hover{
@@ -45,6 +46,7 @@ header{
     top: 150px;
     left: 1400px;
     font-family: 'Advent Pro', sans-serif;
+    transition:500ms;
 }
 
 .prof:hover{
@@ -199,11 +201,12 @@ header{
     top: 4700px;
     left: 200px;
     width: 350px;
+    transition: 500ms;
 }
 
 .email:hover{
     transform: scale(1.25,1.25);
-    transition: 1000ms;
+    transition: 500ms;
 }
 
 .zap{
@@ -211,11 +214,13 @@ header{
     top: 4730px;
     left: 500px;
     width: 379px;
+    transition: 500ms;
+
 }
 
 .zap:hover{
     transform: scale(1.25,1.25);
-    transition: 1000ms;
+    transition: 500ms;
 }
 
 .insta{
@@ -223,11 +228,13 @@ header{
     top: 4750px;
     width: 240px;
     left: 850px;
+    transition: 500ms;
+
 }
 
 .insta:hover{
     transform: scale(1.25,1.25);
-    transition: 1000ms;
+    transition: 500ms;
 }
 
 .gitHub{
@@ -235,11 +242,13 @@ header{
     top: 4730px;
     left: 1150px;
     width: 320px;
+    transition: 500ms;
+
 }
 
 .gitHub:hover{
     transform: scale(1.25,1.25);
-    transition: 1000ms;
+    transition: 500ms;
 }
 
 .linkedin{
@@ -247,11 +256,13 @@ header{
     top: 4740px;
     width: 260px;
     left: 1500px;
+    transition: 500ms;
+
 }
 
 .linkedin:hover{
     transform: scale(1.25,1.25);
-    transition: 1000ms;
+    transition: 500ms;
 }
 
 .footer{
