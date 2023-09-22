@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    border: solid 1px #000000;
+}
+
 .header {
     display: flex;
     background: linear-gradient(165deg, rgba(50,7,222,1) 0%, rgba(0,255,166,1) 100%);
@@ -13,4 +24,13 @@
     font-size: 40px;
     text-decoration: none;
     color: #ffffff;
+}
+
+.descricao {
+    display: flex;
+    justify-content: space-around;
+}
+
+.descricao__avatar {
+    width: 400px;
 }
