@@ -5,14 +5,14 @@
  
  
  body {
-    font-size: 26px;
+   background-color: aliceblue;
+    font-size: 36px;
  }
  
  
  .container {
     width: 60%;
     margin: 0 auto;
-    border: solid 1px #000000;
  }
  
  
@@ -40,6 +40,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 1em 2em;
  }
  
 
@@ -63,7 +64,64 @@
     text-align: center;
  }
 
- .imgs {
-    display: flex;
-    flex-direction: column;
+ .imgs__item {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: 4em;
+   border: solid 1px black;
+   border-radius: 10px;
+   padding: 1em;
+   background: linear-gradient(165deg, rgba(50,7,222,1) 0%, rgba(0,255,166,1) 100%);
  }
+
+ .imagens {
+   width: 300px;
+   border-radius: 10px;
+}
+
+.imgs__jiu {
+   width: 350px;
+}
+
+.imgs__game {
+   width: 250px;
+}
+
+.imgs__js {
+   width: 200px;
+}
+
+.imgs__texto {
+   color:#ffffff;
+   font-size: 1.3em;
+}
+
+.contato {
+   padding: 2em ;
+   text-align: center;
+}
+
+.contato__texto {
+   margin:0 0 2em 0;
+}
+
+.contato__imgs {
+   display: flex;
+   justify-content: space-around;
+}
+
+.contato__logo {
+   width: 100px;
+}
+
+.img__zap {
+   width: 150px;
+}
+
+.footer {
+   color: #ffffff;
+   text-align: center;
+   background: linear-gradient(165deg, rgba(50,7,222,1) 0%, rgba(0,255,166,1) 100%);
+   padding: 2em;
+}
