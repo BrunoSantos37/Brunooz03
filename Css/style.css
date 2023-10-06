@@ -1,126 +1,148 @@
 * {
-   margin: 0;
-   padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
 body {
-  background-color: aliceblue;
-   font-size: 36px;
+ background-color: aliceblue;
+  font-size: 36px;
+  font-family: 'Nunito', sans-serif;
 }
 
 .container {
-   width: 60%;
-   margin: 0 auto;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .header {
-   display: flex;
-   background: rgb(0,255,192);
-   background: linear-gradient(90deg, rgba(0,255,192,1) 0%, rgba(0,0,0,1) 74%);
-   justify-content: space-around;
-   align-items: center;
+  display: flex;
+  background: rgb(0,255,192);
+  background: linear-gradient(90deg, rgba(0,255,192,1) 0%, rgba(0,0,0,1) 74%);
+  justify-content: space-around;
+  align-items: center;
 }
 
 .header__logoEscola {
-   width: 15%;
+  width: 15%;
 }
 
 
 .header__turma {
-   font-size: 40px;
-   text-decoration: none;
-   color: #ffffff;
+  font-size: 40px;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 
 .descricao {
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   margin: 1em 2em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1em 2em;
 }
 
 
 .descricao__texto {
-   position: relative;
-   margin: 0 1em;
-   width: 50%;
+  position: relative;
+  margin: 0 1em;
+  width: 50%;
 }
 
 .descricao__avatar {
-   position: relative;
-   top: 0.1em;
-   background: rgb(0,0,0);
+  position: relative;
+  top: 0.1em;
+  background: rgb(0,0,0);
 background: radial-gradient(circle, rgba(0,0,0,1) 31%, rgba(0,255,192,1) 74%);
-   width: 400px;
-   border-radius: 50%;
+  width: 400px;
+  border-radius: 50%;
 }
 
 .fav__texto {
-   position: relative;
-   margin: 2em 0;
-   text-align: center;
+  position: relative;
+  margin: 2em 0;
+  text-align: center;
+  font-weight: bold;
 }
 
 .imgs__item {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 4em;
-  border: solid 1px black;
-  border-radius: 10px;
-  padding: 1em;
-  background: linear-gradient(165deg, rgba(50,7,222,1) 0%, rgba(0,255,166,1) 100%);
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin: 4em;
+ border-radius: 10px;
+ padding: 1em;
+ background: rgb(0,255,192);
+ background: linear-gradient(90deg, rgba(0,255,192,1) 0%, rgba(0,0,0,1) 74%);
+ transition: linear 500ms;
+ box-shadow: 5px 5px 10px #000000;
+}
+
+.imgs__item:hover {
+ transform: scale(1.2,1.2);
+ background: rgb(0,255,192);
+ background: linear-gradient(90deg, rgba(0,255,192,1) 0%, rgba(0,0,0,1) 74%);
+ box-shadow: 10px 10px 15px #686868;
+ transform: rotate(360deg);
 }
 
 .imagens {
-  width: 300px;
-  border-radius: 10px;
+ width: 300px;
+ border-radius: 10px;
 }
 
 .imgs__jiu {
-  width: 350px;
+ width: 350px;
 }
 
 .imgs__game {
-  width: 250px;
+ width: 250px;
 }
 
 .imgs__js {
-  width: 200px;
+ width: 200px;
 }
 
 .imgs__texto {
-  color:#ffffff;
-  font-size: 1.3em;
+ color:#ffffff;
+ font-size: 1.3em;
+}
+
+.p__red {
+ font-size: 35px;
 }
 
 .contato {
-  padding: 0 2em 2em 2em ;
-  text-align: center;
+ padding: 0 2em 2em 2em ;
+ text-align: center;
 }
 
 .contato__texto {
-  margin:0 0 2em 0;
+ margin:0 0 2em 0;
 }
 
 .contato__imgs {
-  display: flex;
-  justify-content: space-around;
+ display: flex;
+ justify-content: space-around;
 }
 
 .contato__logo {
-  width: 100px;
+ width: 100px;
+ transition:  linear 500ms;
+}
+
+.contato__logo:hover {
+ transform: scale(1.2,1.2); 
 }
 
 .img__zap {
-  width: 150px;
+ width: 150px;
 }
 
 .footer {
-  color: #ffffff;
-  text-align: center;
-  background: linear-gradient(165deg, rgba(50,7,222,1) 0%, rgba(0,255,166,1) 100%);
-  padding: 2em;
+ color: #ffffff;
+ text-align: center;
+ background: rgb(0,255,192);
+ background: linear-gradient(90deg, rgba(0,255,192,1) 0%, rgba(0,0,0,1) 74%);
+ padding: 2em;
 }
