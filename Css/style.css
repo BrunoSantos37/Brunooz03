@@ -5,9 +5,10 @@
 
 
 body {
- background-color: aliceblue;
-  font-size: 36px;
-  font-family: 'Nunito', sans-serif;
+background-color: aliceblue;
+font-size: 36px;
+font-family: 'Nunito Sans', sans-serif;
+text-decoration: none;
 }
 
 .container {
@@ -19,18 +20,13 @@ body {
   display: flex;
   background: rgb(0,255,192);
   background: linear-gradient(90deg, rgba(0,255,192,1) 0%, rgba(0,0,0,1) 74%);
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  padding: 1.4em;
 }
 
-.header__logoEscola {
-  width: 15%;
-}
-
-
-.header__turma {
+.header__vida {
   font-size: 40px;
-  text-decoration: none;
   color: #ffffff;
 }
 
@@ -53,16 +49,17 @@ body {
   position: relative;
   top: 0.1em;
   background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,1) 31%, rgba(0,255,192,1) 74%);
+  background: radial-gradient(circle, rgba(0,0,0,1) 31%, rgba(0,255,192,1) 74%);
   width: 400px;
   border-radius: 50%;
 }
 
 .fav__texto {
+  font-size: 1.5em;
   position: relative;
   margin: 2em 0;
   text-align: center;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .imgs__item {
@@ -79,16 +76,17 @@ background: radial-gradient(circle, rgba(0,0,0,1) 31%, rgba(0,255,192,1) 74%);
 }
 
 .imgs__item:hover {
- transform: scale(1.2,1.2);
+ transform: scale(1.1);
  background: rgb(0,255,192);
  background: linear-gradient(90deg, rgba(0,255,192,1) 0%, rgba(0,0,0,1) 74%);
  box-shadow: 10px 10px 15px #686868;
- transform: rotate(360deg);
+ transform: rotate3d(60deg);
 }
 
 .imagens {
  width: 300px;
  border-radius: 10px;
+ border: #ffffff 3px solid;
 }
 
 .imgs__jiu {
@@ -119,6 +117,7 @@ background: radial-gradient(circle, rgba(0,0,0,1) 31%, rgba(0,255,192,1) 74%);
 
 .contato__texto {
  margin:0 0 2em 0;
+ font-weight: 800;
 }
 
 .contato__imgs {
@@ -143,6 +142,72 @@ background: radial-gradient(circle, rgba(0,0,0,1) 31%, rgba(0,255,192,1) 74%);
  color: #ffffff;
  text-align: center;
  background: rgb(0,255,192);
- background: linear-gradient(90deg, rgba(0,255,192,1) 0%, rgba(0,0,0,1) 74%);
+ background: linear-gradient(90deg, #00ffc0 0%, rgba(0,0,0,1) 74%);
  padding: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1391px){
+  .container {
+    width: 100%;
+  }
+
+  .header {
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .header {
+    display: block;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .header__vida {
+    font-size: 20px;
+  }
+
+  .descricao {
+    padding: 1.5em 0;
+  }
+
+  .descricao__avatar {
+    width: 124px;
+  }
+
+  .fav__texto {
+    margin: 1em 0
+  }
+
+  .imagens {
+    width: 90px;
+  }
+
+  .p__red {
+    font-size: 25px;
+  }
+
+  .contato__logo {
+    width: 80%;
+  }
+
+  .imgs__item {
+    margin: 2em;
+  }
+
+  .imgs__item:hover{
+    display: none;
+  }
 }
